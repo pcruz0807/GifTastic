@@ -7,7 +7,7 @@ $(document).ready(function() {
         $("#tv-gifs").empty();	
     
         var show = $(this).attr("data-name");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=kya3mkv8JiwwnqBgBU50ea44J9spkILY&limit=10";
     
         $.ajax({
             url: queryURL,
@@ -45,7 +45,7 @@ $(document).ready(function() {
     
     };
     
-    // Render buttons from array.
+    
     
     function renderButtons() {
     
@@ -60,7 +60,7 @@ $(document).ready(function() {
         };
     };
     
-    // When new TV Show is submitted, add to list of buttons.
+    
     
     $("#addTvShow").on("click", function(event) {
     
@@ -74,7 +74,7 @@ $(document).ready(function() {
     
     });
     
-    //Click to animate GIF.
+    
     $(document).on("click", "img", animateGif);
     
     
