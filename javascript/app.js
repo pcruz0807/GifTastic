@@ -34,7 +34,7 @@ $(document).ready(function() {
                     tvImg.attr("data-still", results[i].images.fixed_height_still.url);
 
                     tvImg.attr("data-animate", results[i].images.fixed_height.url);
-                  
+                    
                     tvImg.attr("class", "show");
     
                     showSpan.append(tvImg);
