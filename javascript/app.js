@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var topics = ["Family Guy", "Bob's Burgers", "The Simpsons"];
+    var topics = ["Family Guy", "Bob's Burgers", "The Simpsons", "Futurama", "American Dad", "Archer"];
     
     function displayGifs() {
     
